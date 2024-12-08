@@ -1,0 +1,117 @@
+/**{
+    border : solid 1px black;
+}*/
+body{
+
+}
+header{
+    background-color: #1F2939;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18PX;
+}
+a{
+
+}
+
+p{
+    padding:0 ;
+    margin: 0;
+}
+ul{
+    display: flex;
+    gap:8px;
+
+}
+.container1{
+    background-color:yellow;
+   
+    display: flex;
+    flex-direction: row;
+    margin: 30PX 80px 30PX 80PX;
+
+}
+
+.main{
+    width: 50%;
+}
+
+.img{   
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title{
+    font-size: 48px;
+}
+
+.container2{
+    background-color:green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30PX 120px 30PX 120PX;
+}
+
+.pictures{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#box{
+    border:solid 2px lightblue;
+    width: 100px;
+    height: 100px;
+}
+.container3{
+    background-color:red;
+    display: flex;
+    flex-direction: column;
+    margin: 30PX 120px 30PX 120PX;
+}
+
+#quote{
+    font-size: 30px;
+}
+#author{
+    display: flex;
+    font-size: 15px;
+    font-weight: 800;
+    justify-content: end;
+}
+.container4{
+    background-color:pink;
+    display: flex;
+    justify-content: center;
+    margin: 30PX 120px 30PX 120PX;
+
+
+}
+#sign{
+    margin :30px 30px 30px 60px;
+}
+#sign-up{
+    margin :30px 60px 30px 30px;
+}
+#sign-text{
+    font-size: 12px;
+}
+
+button{
+    
+}
+footer{
+    bottom: 0;
+    height: 40px;
+    background-color: blue;
+}
